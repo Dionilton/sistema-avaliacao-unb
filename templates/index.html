@@ -8,19 +8,26 @@
 
 <body>
 
-<div class="modal" id="loginModal" tabindex="-1">
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">Modal title</h5>
+        <h5 class="modal-title">Login</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body">
-        <p>Modal body text goes here.</p>
+      <div class="modal-body text-center">
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Usuário" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group mb-3">
+          <input type="password" class="form-control" placeholder="Senha" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+      <div class="text-center" style="padding-bottom: 25px">
+        <button type="button" class="btn btn-primary" style="width: 200px">Entrar</button>
+      </div>
+      <div class="text-center" style="padding-bottom: 10px">
+        <text>Dattebayo!!</text>
       </div>
     </div>
   </div>
